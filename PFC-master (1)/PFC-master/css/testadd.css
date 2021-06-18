@@ -1,0 +1,60 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif ;
+
+}
+
+html{
+    font-size: 62.5;
+}
+
+
+a{
+    color :#fff;
+    text-decoration: none;
+}
+
+.main-header {
+
+    background: #253858;
+    color : #fff;
+}
+
+
+nav{
+    min-height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+    margin: auto;
+    width: 90%;
+    flex-wrap: wrap;
+
+
+}
+nav img{
+    display: flex;
+    height: 80px;
+    margin-right: 20%;
+
+
+}
+
+nav ul {
+    margin-left: 30%;
+    display: flex;
+
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+nav li {
+
+    font-size: 36px;
+   margin-right: 25%;
+}
+
